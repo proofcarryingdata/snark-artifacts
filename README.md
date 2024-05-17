@@ -45,4 +45,17 @@ branch can be deleted when testing is complete,
 
 ## Releasing updated artifacts
 
-  TODO(POD-P3): Document the process for uploading and releasing new artifacts.
+To release a new package to NPM you need write access to @pcd packages in NPM.
+A release can be created using [changesets](https://github.com/changesets/changesets/tree/main).  First declare and describe your intended change:
+
+  yarn changeset
+
+Answer the prompts to select the type of release and description.  Note that
+due to binary compatibility, once artifacts are in production, patches can
+only be used to add new artifacts, or change non-artifact files.  Consider
+using changeset's prerelease or snapshot features for testing first.
+
+Next update the package version:
+
+  yarn changeset version
+
