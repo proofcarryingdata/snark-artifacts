@@ -1,10 +1,10 @@
 # proofcarryingdata/snark-artifacts
 
 Repo for holding large binaries needed for ZK proofs, particularly for families
-of GPCs (General Purpose Circuits).  These binaries are kept out of the `zupass` monorepo to avoid bloat.
-
-Everything here is still experimental while the specific method of artifact
-generation and distribution is being worked out.
+of GPCs (General Purpose Circuits).  These binaries are used by code in the
+[Zupass](https://github.com/proofcarryingdata/zupass) repo, but stored in a
+separate repo to avoid bloat.  For more details on what is available,
+see the individual packages in the `packages/` directory.
 
 ## Downloading artifacts
 
@@ -20,7 +20,10 @@ CDN such as unpkg.com:
 
   https://unpkg.com/@pcd/proto-pod-gpc-artifacts@0.0.2/proto-pod-gpc_1o-5e-6md-0x0l-0x0t-vkey.json
 
-TODO(POD-P3): Link to the function in @pcd/gpc which configures download URLs.
+The `@pcd/gpc` package in the Zupass needs a root URL to find artifacts by
+either of these download mechanism.  To create an appropriate URL you can
+use the `gpcArtifactDownloadURL` function available
+[here](https://github.com/proofcarryingdata/zupass/blob/main/packages/lib/gpc/src/gpc.ts).
 
 ## Testing experimental artifacts
 
