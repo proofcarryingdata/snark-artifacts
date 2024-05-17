@@ -9,7 +9,7 @@
     "./README.md",
     "./LICENSE",
     "proto-pod-gpc_*-vkey.json",
-    "proto-pod-gpc_*.pkey.vkey",
+    "proto-pod-gpc_*-pkey.zkey",
     "proto-pod-gpc_*.wasm",
     "circuitParameters.json"
   ],

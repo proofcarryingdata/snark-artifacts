@@ -8,7 +8,7 @@
     <a href="https://github.com/proofcarryingdata">
         <img src="https://img.shields.io/badge/project-PCD-blue.svg?style=flat-square">
     </a>
-    <a href="https://github.com/proofcarryingdata/snark-artifacts/blob/main/packages/proto-pod-gpc/LICENSE">
+    <a href="https://github.com/proofcarryingdata/snark-artifacts/blob/artwyman/experimental/packages/proto-pod-gpc/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-green.svg?style=flat-square">
     </a>
     <a href="https://www.npmjs.com/package/@pcd/proto-pod-gpc-artifacts">

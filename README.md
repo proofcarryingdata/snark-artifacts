@@ -22,6 +22,27 @@ CDN such as unpkg.com:
 
 TODO(POD-P3): Link to the function in @pcd/gpc which configures download URLs.
 
+## Testing experimental artifacts
+
+The direct GitHub download method above can be used for testing with
+experimental artifacts during circuit development.  These commands assume
+you've cloned the `zupass` and `snark-artifacts` directories in a single
+parent folder and have write access to each.
+
+  cd zupass/packages/lib/gpcircuits
+  yarn gen-test-artifacts
+  yarn copy-test-to-snark-artifacts
+  cd ../../../../snark-artifacts
+  git checkout -b your-experimental-branch-name
+  git commit . -m "test artifacts"
+  git push origin
+
+You can then use `your-experimental-branch-name` as the rev in download
+URLs above.
+
+Test artifacts should not be merged into `main`.  Instead the experimental
+branch can be deleted when testing is complete,
+
 ## Releasing updated artifacts
 
   TODO(POD-P3): Document the process for uploading and releasing new artifacts.
