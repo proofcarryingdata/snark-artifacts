@@ -1,0 +1,13 @@
+{
+  "name": "pcd-snark-artifacts-root",
+  "version": "0.0.0",
+  "repository": "https://github.com/proofcarryingdata/snark-artifacts.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
