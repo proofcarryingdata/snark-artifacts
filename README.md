@@ -99,3 +99,7 @@ Publishing will prompt you for a one-time password for 2-factor authentication.
 
 Once published, you can download from NPM using the version number, or from
 GitHub usng the release tag.
+
+When you want code in the Zupass repo to start using your new artifacts,
+you should update `ARTIFACTS_NPM_VERSION` in proto-pod-gpc.ts, as well as
+any package.json which imports `@pcd/proto-pod-gpc-artifacts`.
