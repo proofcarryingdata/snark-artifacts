@@ -36,3 +36,14 @@ These artifacts are built from the circom code in the
 For info on artifact downloading and publishing, see the documentation in the
 [`snark-artifacts`](https://github.com/proofcarryingdata/snark-artifacts) repo
 root.
+
+## Stability and Security
+
+The artifacts in this package are in an experimental pre-release state.
+Compatibility with future versions (of circuits, artifacts, or GPC code) is
+not guaranteed.
+
+This package should not be considered secure enough for highly-sensitive
+use cases.  The circuits are experimental and have not been audited.  The
+proving/verifying keys were generated in good faith by a single author, but
+are not the result of a distributed trusted setup ceremony.
