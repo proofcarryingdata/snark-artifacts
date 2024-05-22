@@ -1,6 +1,6 @@
 {
   "name": "@pcd/proto-pod-gpc-artifacts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ZK artifacts for proto-pod-gpc family of general purpose circuits.",
   "license": "GPL-3.0-or-later",
   "private": false,

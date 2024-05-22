@@ -1,5 +1,11 @@
 # @pcd/proto-pod-gpc-artifacts
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated artifacts with list and tuple support
+
 ## 0.0.2
 
 ### Patch Changes
