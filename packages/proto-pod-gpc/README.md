@@ -18,7 +18,7 @@
         <img alt="Downloads" src="https://img.shields.io/npm/dm/@pcd/proto-pod-gpc-artifacts.svg?style=flat-square" />
     </a>
 <br>
-    <a href="https://0xparc.notion.site/POD-GPC-Development-6547d2e60c184ad0984f933672246e0b">
+    <a href="https://zupass.org/pod-developers">
         <img alt="Developer Site" src="https://img.shields.io/badge/Developer_Site-green.svg?style=flat-square">
     </a>
     <a href="https://github.com/proofcarryingdata/zupass/blob/main/examples/pod-gpc-example/src/gpcExample.ts#L155">
@@ -30,9 +30,10 @@
 </p>
 
 ZK artifacts for supporting the `proto-pod-gpc` family of general purpose
-circuits.  These files are needed by code in the [Zupass](https://github.com/proofcarryingdata/zupass)
+circuits.  These files are needed by code in the
+[Zupass](https://github.com/proofcarryingdata/zupass)
 repo but are stored separately to avoid bloating the repo size.  For a full
-introduction, see the [Developer Site](https://0xparc.notion.site/POD-GPC-Development-6547d2e60c184ad0984f933672246e0b).
+introduction, see the [Developer Site](https://zupass.org/pod-developers).
 
 ## What's in this package?
 
