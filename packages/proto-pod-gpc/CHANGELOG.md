@@ -1,5 +1,11 @@
 # @pcd/proto-pod-gpc-artifacts
 
+## 0.2.0
+
+### Minor Changes
+
+- Add support for virtual entries in circuits
+
 ## 0.1.0
 
 ### Minor Changes
